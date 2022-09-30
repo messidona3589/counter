@@ -1,6 +1,7 @@
 import {ColorProvider } from "./contexts/color";
 import SelectColors from "./components/SelectColors";
 import CounterContainer from "./containers/CounterContainer";
+import {SplitMeContainer} from "./containers/SplitMeContainer";
 
 const App = () => {
   return(
@@ -8,6 +9,7 @@ const App = () => {
       <div>
         <SelectColors />
         <CounterContainer/>
+        <SplitMeContainer/>
       </div>
     </ColorProvider>  
   );
